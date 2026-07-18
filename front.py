@@ -194,7 +194,7 @@ else:
         current_time = datetime.now().strftime("%d %b %Y · %I:%M %p")
         current = st.container()
 
-        st.markdown(f"### 📍 {place.title()}\n<small style='color:#aab4ad'>Updated {current_time} • {info['condition']} • Feels like {info['feels_like']:.1f}°C</small>", unsafe_allow_html=True)
+        st.markdown(f"### {place.title()}\n<small style='color:#aab4ad'>Updated {current_time} • {info['condition']} • Feels like {info['feels_like']:.1f}°C</small>", unsafe_allow_html=True)
 
         with current:
             st.markdown(

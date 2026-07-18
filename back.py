@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
-api = os.getenv("OPENWEATHER_API_KEY")
-api_key = '2f0839437003ca4d552a1cb4c3e3b6c3'
+api_key = os.getenv("OPENWEATHER_API_KEY")
+
 
 def get_data(place,days):
     url =f'https://api.openweathermap.org/data/2.5/forecast?q={place}&appid={api_key}&units=metric'

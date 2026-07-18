@@ -8,10 +8,10 @@
   Get live weather updates, interactive forecasts, and AI-generated weather insights powered by OpenWeather, LangChain, and Groq.
 </p>
 
-<p align="center">
-  <a href="YOUR_LIVE_DEMO_LINK"><strong>🌐 Live Demo</strong></a> •
-  <a href="YOUR_GITHUB_REPO_LINK"><strong>📂 Repository</strong></a>
-</p>
+## 🔗 Project Links
+
+- **🌐 Live Demo:** https://atmosai-weather-dashboard.streamlit.app/
+- **📂 GitHub Repository:** https://github.com/Tanishk7-7/ATMOS_AI-Weather-Dashboard.git
 
 ---
 

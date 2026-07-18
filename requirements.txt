@@ -1,0 +1,6 @@
+streamlit
+plotly
+requests
+langchain-core
+langchain-community
+python-dotenv

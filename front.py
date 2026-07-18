@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 from back import get_data
-from langchain.chat_models import init_chat_model
+from langchain_core.chat_models import init_chat_model
 from dotenv import load_dotenv
 from datetime import datetime
 import os

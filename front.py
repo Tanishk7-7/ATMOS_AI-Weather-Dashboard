@@ -44,7 +44,32 @@ st.markdown(
                 #161a19;
             color: var(--text);
         }
-        #MainMenu, footer, header { visibility: hidden; }
+        #MainMenu {
+            visibility: hidden;
+        }
+
+        footer {
+            visibility: hidden;
+        }
+
+        /* Keep the Streamlit header so the mobile sidebar button works */
+        header[data-testid="stHeader"] {
+            background: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
+
+        /* Transparent toolbar */
+        [data-testid="stToolbar"] {
+            background: transparent !important;
+        }
+
+        /* Always show the mobile sidebar toggle */
+        [data-testid="collapsedControl"] {
+            display: flex !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
         .block-container { max-width: 1440px; padding: 2.15rem 3rem 4rem; }
         [data-testid="stSidebar"] {
             background: rgba(28, 34, 32, 0.97);
